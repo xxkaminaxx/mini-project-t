@@ -1,14 +1,20 @@
+
 <html>
     <head>
+<style>
 
+
+</style>
     </head>
     <body>
-        {% for task in tasks %}
-            {{task.task_name}}
+    
+   {% for task in tasks %} 
+            {{task_name}} 
             {{task.category_name}}
             {{task.task_description}}
             {{task.is_urgent}}
             {{task.due_date}}
-        {% endfor %}
+        {% endfor %} 
+
     </body>
 </html>
